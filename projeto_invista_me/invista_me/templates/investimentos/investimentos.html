@@ -1,29 +1,43 @@
+{% extends 'investimentos/base.html' %}
+{% block conteudo %}
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>investimentos</title>
+    <title>Investimentos</title>
 </head>
+
 <body>
-    <h1>Listagem de investimentos</h1>
-    <button><a href="{% url 'novo_investimento' %}">Novo investimento</a></button>
-    <table>
+    <h1 style="text-align: center;">Listagem de investimentos</h1>
+
+<div class="container">
+    <button class="btn btn-success" style="margin-bottom: 10px;"><a style="color: white;" href="{% url 'novo_investimento' %}">Novo investimento</a></button>
+    <table class="table table-stripad table-bordred">
         <tr>
             <th>Id</th>
             <th>Investimento</th>
             <th>Valor</th>
+            <th></th>
+            <th></th>
+            <th></th>
+
         </tr>
         {% for dado in dados %}
         <tr>
             <td>{{dado.id}}</td>
             <td>{{dado.investimento}}</td>
             <td>{{dado.valor}}</td>
-            <td><button><a href="{% url 'detalhes' dado.id %}">Detalhe</a></button></td>
-            <td><button><a href="{% url 'editar' dados.id %}">Editar</a></button></td>
+            <td><button class="btn btn-info"><a style="color: white;" href="{% url 'detalhes' dado.id %}">Detalhe</a></button></td>
+            <td><button class="btn btn-warning"><a style="color: white;" href="{% url 'editar' dado.id %}">Editar</a></button></td>
+            <td><button class="btn btn-danger"><a style="color: white;" href="{% url 'excluir' dado.id %}">Excluir</a></button></td>
         </tr>
         {% endfor %}
     </table>
+</div>
 </body>
+
 </html>
+{% endblock %}
