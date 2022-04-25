@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'projeto_invista_me',
     'invista_me',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
