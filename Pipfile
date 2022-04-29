@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 django = "*"
 django-widget-tweaks = "*"
+whitenoise = "*"
+dj-database-url = "*"
 
 [dev-packages]
 flake8 = "*"
