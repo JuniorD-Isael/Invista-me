@@ -8,6 +8,7 @@ django = "*"
 django-widget-tweaks = "*"
 whitenoise = "*"
 dj-database-url = "*"
+psycopg2 = "*"
 
 [dev-packages]
 flake8 = "*"
