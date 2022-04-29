@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: guniocorn projeto_invista_me.wsgi.py
+web: guniocorn projeto_invista_me.wsgi
