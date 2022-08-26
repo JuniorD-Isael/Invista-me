@@ -94,12 +94,8 @@
     },
     "develop": {
         "autopep8": {
-            "hashes": [
-                "sha256:44f0932855039d2c15c4510d6df665e4730f2b8582704fa48f9c55bd3e17d979",
-                "sha256:ed77137193bbac52d029a52c59bec1b0629b5a186c495f1eb21b126ac466083f"
-            ],
-            "index": "pypi",
-            "version": "==1.6.0"
+            "hashes": [],
+            "version": "==1.7.0"
         },
         "flake8": {
             "hashes": [],
