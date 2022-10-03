@@ -106,7 +106,7 @@
         },
         "mypy": {
             "hashes": [],
-            "version": "==0.971"
+            "version": "==0.982"
         },
         "mypy-extensions": {
             "hashes": [
