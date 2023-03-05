@@ -8,14 +8,9 @@ django = "*"
 django-widget-tweaks = "*"
 whitenoise = "*"
 dj-database-url = "*"
-psycopg2 = "*"
-gunicorn = "*"
 python-decouple = "*"
 
 [dev-packages]
-flake8 = "*"
-mypy = "*"
-autopep8 = "*"
 
 [requires]
 python_version = "3.9"
