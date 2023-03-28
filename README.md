@@ -1,4 +1,4 @@
-Uma API desenvolvida em Python com o framework Django que recebe o nome e preço de um produto, depois salva os dados em um banco de dados.
+Um projeto desenvolvido em Python com o framework Django que recebe o nome e preço de um produto, depois salva os dados em um banco de dados.
 
 Temos as funções basicas que uma API pode precisar:
 
