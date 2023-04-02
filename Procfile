@@ -1,2 +1,1 @@
-release: python manage.py migrate
-web: gunicorn projeto_invista_me.wsgi
+web: python manage.py migrate && gunicorn projeto_invista_me.wsgi
