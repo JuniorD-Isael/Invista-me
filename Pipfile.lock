@@ -63,7 +63,7 @@
         },
         "typing-extensions": {
             "hashes": [],
-            "version": "==4.9.0"
+            "version": "==4.12.0"
         },
         "whitenoise": {
             "hashes": [
