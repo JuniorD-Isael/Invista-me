@@ -30,7 +30,7 @@
         },
         "django": {
             "hashes": [],
-            "version": "==5.1"
+            "version": "==5.1.1"
         },
         "django-widget-tweaks": {
             "hashes": [
