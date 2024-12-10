@@ -51,7 +51,7 @@
         },
         "sqlparse": {
             "hashes": [],
-            "version": "==0.5.1"
+            "version": "==0.5.3"
         },
         "typing-extensions": {
             "hashes": [],
