@@ -50,7 +50,7 @@
         },
         "tzdata": {
             "hashes": [],
-            "version": "==2025.3"
+            "version": "==2026.1"
         },
         "whitenoise": {
             "hashes": [],
