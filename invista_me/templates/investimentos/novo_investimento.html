@@ -1,37 +1,29 @@
 {% extends 'investimentos/base.html' %}
 {% block conteudo %}
 {% load widget_tweaks %}
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novo Investimento</title>
-
-</head>
-
-<body>
-    <div class="container">
-        <form action="" method="POST">
-            {% csrf_token %}
-            <h1>Formulário Novo Investimento</h1>
-            <div class="form-row align-items-center">
-                <label>Investimento</label>
+<div class="container mt-4">
+    <h1 class="mb-4">Formulário Novo Investimento</h1>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <div class="row g-3">
+            <div class="col-12">
+                <label class="form-label">Investimento</label>
                 {% render_field formulario.investimento class="form-control" %}
-                <label>Valor</label>
-                {% render_field formulario.valor class="form-control pell-left" %}
-                <label>Pago</label>
-                {% render_field formulario.pago class="form-control form-check-input" %}
-                <label>Data</label>
+            </div>
+            <div class="col-12">
+                <label class="form-label">Valor</label>
+                {% render_field formulario.valor class="form-control ps-2" %}
+            </div>
+            <div class="col-12">
+                <label class="form-label">Pago</label>
+                {% render_field formulario.pago class="form-check-input" %}
+            </div>
+            <div class="col-12">
+                <label class="form-label">Data</label>
                 {% render_field formulario.data class="form-control" %}
             </div>
-
-            <button style="margin-top: 10px;" class="btn btn-success" type="submit">Salvar</button>
-        </form>
-    </div>
-</body>
-
-</html>
+        </div>
+        <button class="btn btn-success mt-3" type="submit">Salvar</button>
+    </form>
+</div>
 {% endblock %}
