@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.table th {
+    background-color: #f1f3f5;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.form-label {
+    font-weight: 500;
+}
