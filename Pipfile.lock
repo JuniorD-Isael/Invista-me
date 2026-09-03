@@ -34,13 +34,8 @@
             "version": "==3.1.2"
         },
         "django": {
-            "hashes": [
-                "sha256:6c132cd980c9392b06807d4ca52d72530d631dc65a85d9dacede00a780cefbbe",
-                "sha256:86a2aacd59b817e4d6ac2ebfe22356c58f66f7b24e503f71b7c2fead677ee48b"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.12'",
-            "version": "==6.1"
+            "hashes": [],
+            "version": "==6.1.1"
         },
         "django-widget-tweaks": {
             "hashes": [
