@@ -79,13 +79,8 @@
     },
     "develop": {
         "flake8": {
-            "hashes": [
-                "sha256:b9696257b9ce8beb888cdbe31cf885c90d31928fe202be0889a7cdafad32f01e",
-                "sha256:fe044858146b9fc69b551a4b490d69cf960fcb78ad1edcb84e7fbb1b4a8e3872"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.9'",
-            "version": "==7.3.0"
+            "hashes": [],
+            "version": "==7.4.0"
         },
         "mccabe": {
             "hashes": [
