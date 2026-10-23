@@ -17,12 +17,8 @@
     },
     "default": {
         "asgiref": {
-            "hashes": [
-                "sha256:59dcb51c272ad209d59bed5708a64a333083e86017d7fcdd67498eeab7784340",
-                "sha256:fe386d1c2bff7259ea95929266d12a8cf9a8b5a1c2598402967d8792e7a7c094"
-            ],
-            "markers": "python_version >= '3.10'",
-            "version": "==3.12.1"
+            "hashes": [],
+            "version": "==3.13.0"
         },
         "dj-database-url": {
             "hashes": [
